@@ -10,7 +10,7 @@
           {
             "id": "bd9e671043f3cca3",
             "type": "tabs",
-            "dimension": 58.30212234706617,
+            "dimension": 46.566791510611736,
             "children": [
               {
                 "id": "813a2a74309bd09e",
@@ -268,7 +268,7 @@
           {
             "id": "7e1c6a9c6d530e2d",
             "type": "tabs",
-            "dimension": 41.69787765293383,
+            "dimension": 53.433208489388264,
             "children": [
               {
                 "id": "90edd3dc25d24eed",
@@ -355,8 +355,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 917.4999961853027,
-    "collapsed": true
+    "width": 412.49999618530273
   },
   "right": {
     "id": "bf781129747edcdb",
@@ -372,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Financial Engineering and Risk Management - M3V2 Floating Rate Bonds and Term Structure of Interest Rates.md",
+                "file": "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3V1 Introduction to No-Arbitrage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +381,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Financial Engineering and Risk Management - M3V2 Floating Rate Bonds and Term Structure of Interest Rates"
+              "title": "Backlinks for Financial Engineering and Risk Management - M3V1 Introduction to No-Arbitrage"
             }
           },
           {
@@ -434,13 +433,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Financial Engineering and Risk Management - M3V2 Floating Rate Bonds and Term Structure of Interest Rates.md",
+                "file": "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3V1 Introduction to No-Arbitrage.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Financial Engineering and Risk Management - M3V2 Floating Rate Bonds and Term Structure of Interest Rates"
+              "title": "Outline of Financial Engineering and Risk Management - M3V1 Introduction to No-Arbitrage"
             }
           }
         ],
@@ -461,21 +460,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "90edd3dc25d24eed",
+  "active": "e56b86986067a0d5",
   "lastOpenFiles": [
+    "Financial Engineering and Risk Management - M3V2 Floating Rate Bonds and Term Structure of Interest Rates.md",
+    "DOL Building and Using Your Linkedin Profile 4.21.26.md",
     "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3V1 Introduction to No-Arbitrage.md",
+    "Pasted image 20260421002658.png",
+    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - M1V1 Course Overview.md",
+    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - M2V1-2 Review of Basic Probability(1).md",
+    "Prerequisite Qualification - Brownian Motion, Vector.md",
     "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 2 M2V6-8 Introduction to Martingales - recovered.md",
     "Financial Engineering and Risk Management/Prerequisite Qualification 1 Quiz - Probability (I).md",
     "DOL/DOL Transferable Skills Workshop 4.20.26.md",
     "CFA 60-40 Portfolio Webinar 3.25.26.md",
     "DOL/Salary Negotiation DOL 1pm 24 March 2026.md",
     "CFA Webinar Adapting Governance and Allocation to Balance Risk and Opportunity 3.26.26.md",
-    "Financial Engineering and Risk Management - M3V2 Floating Rate Bonds and Term Structure of Interest Rates.md",
     "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 4 M2V13-14 Matrices.md",
-    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - M2V1-2 Review of Basic Probability(1).md",
     "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 5 M2V17-18 Non-Linear Optimization.md",
     "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities",
-    "Untitled 1.md",
     "Pasted image 20260419134054.png",
     "CFA Webinar 4.16.26.md",
     "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 5 M2V15-16 Linear Optimization.md",
@@ -494,13 +496,9 @@
     "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 1 M2V3 Review of Conditional Expectations and Variances.md",
     "Martingales.md",
     "DOL/DOL Job Fairs Success Workshop 4.9.26.md",
-    "DOL/Cover Letters DOL 1pm 2 April 2026.md",
-    "DOL/DOL Resume Workshop 4.8.26.md",
-    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 2 M2V5 The Multivariate Normal Distribution(1).md",
     "Pasted image 20260325105505.png",
     "Pasted image 20260324232550.png",
     "Pasted image 20260328014737.png",
-    "Pasted image 20260406234334.png",
     "DOL",
     "Financial Engineering and Risk Management/Prerequisite Qualification 1",
     "bck",
