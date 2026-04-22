@@ -45,8 +45,8 @@ $$\begin{aligned}
 \ and\ 
 \Sigma =
 \begin{pmatrix}
-\Sigma_{11} & \Sigma{12} \\
-\Sigma_{21} & \Sigma{22} \\
+\Sigma_{11} & \Sigma_{12} \\
+\Sigma_{21} & \Sigma_{22} \\
 \end{pmatrix}
 \end{aligned}$$
 are the mean and covariance matrix of $(X_1, X_2)$.
@@ -62,7 +62,7 @@ X_2 \sim MN_{n-k\ components} (\mu_2, \Sigma_{22})
 \end{aligned}$$
 
 Bivariate normal density function when correlation between X1 and X2 is 80%:
-![[Pasted image 20260401190013.png]]
+![[Pasted image 20260401190013.png|697]]
 
 This correlation is visible when rotating the surface:
 ![[Pasted image 20260401190359.png]]
@@ -78,6 +78,7 @@ where $\mu_{2.1} = \mu_2 + \Sigma_{21} \Sigma_{11}^{-1} (x_1-\mu_1)$ and $\Sigma
 
 Intuition for this result. graph points of X1/X2 in a scatter from some distribution (ie bivar normal). 
 ![[Pasted image 20260401220539.png]]
+![[Pasted image 20260421231318.png]]
 
 For a given x1, with correlation, x2 is more likely to be up there above the mean. Likewise, we also expect variance of X2 to have shrunk, knowing something about X1 would tell us something about X2 and reduce uncertainty about the location of X2. The expression for $\Sigma_{2.1}$ tells us how to actually do that.
 Hence conditional distribution of a multivariate normal is also multivariate normal.

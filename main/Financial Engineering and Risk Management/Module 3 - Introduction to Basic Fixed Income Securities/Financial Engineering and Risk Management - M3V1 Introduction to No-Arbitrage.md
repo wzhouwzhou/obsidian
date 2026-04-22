@@ -8,8 +8,6 @@ Industrial Engineering and Operations Research
 ## Introduction to no-arbitrage
 > "​In this module, we'll introduce the concept of no-arbitrage and work through ​a very simple example of the application of the no-arbitrage principle to pricing. ​"
 
-Note: no slides exported.
-
 ---
 ### Contracts, prices, and no-arbitrage
 Consider the following contract
@@ -49,8 +47,61 @@ Rationale for the strong no-arb condition (p must be strictly positive for where
 
 Implicit assumptions underlying the no-arbitrage condition
 - Markets are liquid: sufficient number of buyers and sellers. If the markets are illiquid, then no-arb condition isn't valid, and the bounds that we generate using the no-arb argument will no longer be valid.
-- Price information is available to all buyers and sellers. Price information basically means what are the cash flows. Any buyers/sellers ignorant about CF means price formation process does not happen.
+- Price information is available to all buyers and sellers. Price information basically means what are the cash flows. Any buyers/sellers ignorant about CF means price formation process does not happen. Buyers and sellers decide how to set the price efficiently given price info.
 - Competition is supply and demand will correct any deviation from no-arbitrage prices
+
+---
+### Pricing a Simple Bond
+Consider a very simple bond that pays A dollars in one year. We want to set the price for this bond p today. Suppose one is able to borrow and lend unlimited amounts in the market at an interest rate of r per year.
+Computing fair / arbitrage free price by constructing two different portfolios.
+- Buy the contract at price p
+- Borrow $A/(1+r)$ at interest rate r
+Cash flows associated with this portfolio:
+$$\begin{aligned}
+\begin{array}{|c|c|c|}
+\hline
+\text{Price of portfolio} & & \text{Cashflow in 1 year} \\
+\hline 
+z = p - \frac{A}{1+r} & & A-A = 0 \\
+\hline
+\end{array}
+\end{aligned}$$
+At the beginning, you pay p for the contract and received A discounted at r from the loan.
+In the future, the contract will pay A dollars, and borrowing A dollars needs to be repaid (since borrowed A/1+r has now grown at 1+r so repayment amount is A). 
+
+Weak no-arb: $c_1 \ge 0$ implies price $z \ge 0$ i.e., $p \ge \frac{A}{1+r}$. Here there's only the one cash flow $c_1$ in the future and it's 0. Therefore the price must be >= 0. 
+Then because z = P - PV(A), P >= PV(A) at 1+r.
+Therefore the weak no-arb condition has given me a lower bound on the price. 
+
+
+---
+### Pricing a simple bond (contd) - 2nd portfolio
+Next construct the following portfolio.
+- Sell the contract at price p
+- Lend A/1+r at interest rate r
+Cash flows associated with this portfolio:
+
+$$\begin{aligned}
+\begin{array}{|c|c|c|}
+\hline
+\text{Price of portfolio} & & \text{Cashflow in 1 year} \\
+\hline 
+z = \frac{A}{1+r} - p & & -A+A = 0 \\
+\hline
+\end{array}
+\end{aligned}$$
+The cash flow again is 0 in the future because lent PV(A) at 1+r, and because you sold hte contract, you are responsible to pay the A dollars to the buyer of the contract in one year. These two cash flows cancel. So $c_1 = 0 \ge 0$. 
+Price of the portfolio: you sold the contract so you receive that amount as a credit and lending/buying the bond of PV(A) outflow, the difference forms that z upfront cost.
+
+Now again weak no-arb $c_1 \ge 0$ implies price $\implies z \ge 0$, i.e., $p \le \frac{A}{1+r}$.
+When z = PV(A)-p >= 0, then we know that PV(A) >= p.
+
+Now, these two results together imply that p = A / 1 + r. No surprise because constructed NPV calc using no-arb condition. Advantage of doing it this way because shows what assumptions are needed for NPV to exist.
+
+The result relied on the ability to borrow AND lend at rate r and at an unlimited amount.
+Consider if borrowing/lending rates are different and if borrowing/lending markets are elastic.
+No-arb conditions would still be valid but you'd have to use different portfolios. Different rates means can't use NPV but can use no-arb. Elastic markets means interest rates being charged on borrowing/lending depends on the amount of borrowing or lending. No-arb would give us bounds on what such a contract can cost, if not the exact price.
+
 
 
 
