@@ -1,0 +1,8 @@
+1. If we have cash flow c = {1, 2, -5} for t=1-3, we have strictly negative CF at c3 violating assumption of weak no-arb principle. Cannot determine anything about p.
+2. Implicit assumptions of strong no-arb principle: markets are liquid, sufficient number of buyers and sellers; info available to everyone; market can correct for any deviation from the no-arb price
+3.   If we can borrow at rate r, what is implied about the price p of the contract with cash flow $\set{c_t}$?
+When we can borrow, we construct a portfolio that derives a lower bound for p; hence we know p is lower bounded.
+Being able to borrow to buy the contract at price p to perfectly offset cash flows; if p was priced any cheaper, there would be excess upfront credit left over, so people would bid the prices up.
+4. When borrow rate != lending rate, price needs to be determined by external factors such as supply/demand in market, cannot uniquely be det by no-arb principle. The two rates set upper/lower bound on price. When rates differ, the two bounds are diff. The higher borrow rate's PV sets the lower bound, lower lending rate's PV sets the upper bound.
+5. Fixed income instruments are based on IR and generally considered safe investments. But FI insts exposed to mkt/infl/default risks. But generally lower risk than other instruments.
+6. Bond with high YTM implies low quality. Low priceo f bond = low quality / easy to default. But single YTM number cannot summarize all info about a bond.
