@@ -10,7 +10,7 @@
           {
             "id": "7a4ac8279a69eee8",
             "type": "split",
-            "dimension": 53.883495145631066,
+            "dimension": 75.72815533980582,
             "children": [
               {
                 "id": "bd9e671043f3cca3",
@@ -121,6 +121,30 @@
                       },
                       "icon": "lucide-file",
                       "title": "CFA Performance Governance Liquidity Private Markets Webinary 4.28.26"
+                    }
+                  },
+                  {
+                    "id": "95c63fb290e23231",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "DOL Interviewing.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "DOL Interviewing"
                     }
                   },
                   {
@@ -244,7 +268,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               },
               {
                 "id": "626206a21646b637",
@@ -274,8 +298,33 @@
                       "icon": "lucide-file",
                       "title": "Financial Engineering and Risk Management - M3.2V4-5 Floating Rate Bonds and Term Structure of Interest Rates"
                     }
+                  },
+                  {
+                    "id": "f6686ef53efebff2",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Financial Engineering and Risk Management - M4V2-3 Futures.md",
+                        "mode": "source",
+                        "source": false,
+                        "backlinks": true,
+                        "backlinkOpts": {
+                          "collapseAll": false,
+                          "extraContext": false,
+                          "sortOrder": "alphabetical",
+                          "showSearch": false,
+                          "searchQuery": "",
+                          "backlinkCollapsed": false,
+                          "unlinkedCollapsed": true
+                        }
+                      },
+                      "icon": "lucide-file",
+                      "title": "Financial Engineering and Risk Management - M4V2-3 Futures"
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "vertical"
@@ -283,7 +332,7 @@
           {
             "id": "7e1c6a9c6d530e2d",
             "type": "tabs",
-            "dimension": 46.116504854368934,
+            "dimension": 24.271844660194176,
             "children": [
               {
                 "id": "414c2dd1aa387843",
@@ -307,6 +356,30 @@
                   },
                   "icon": "lucide-file",
                   "title": "Financial Engineering and Risk Management - M4V1 Swaps"
+                }
+              },
+              {
+                "id": "f1dd016edcc3120a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CFA Webinar 4.29.26 - Conversations with Frank Fabozzi, CFA, Featuring Mark Anson, CFA.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "CFA Webinar 4.29.26 - Conversations with Frank Fabozzi, CFA, Featuring Mark Anson, CFA"
                 }
               },
               {
@@ -334,6 +407,7 @@
                 }
               }
             ],
+            "currentTab": 2,
             "stacked": true
           }
         ],
@@ -394,7 +468,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 518.4999961853027
+    "width": 518.4999961853027,
+    "collapsed": true
   },
   "right": {
     "id": "bf781129747edcdb",
@@ -472,13 +547,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CFA Performance Governance Liquidity Private Markets Webinary 4.28.26.md",
+                "file": "Financial Engineering and Risk Management - M4V2-3 Futures.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CFA Performance Governance Liquidity Private Markets Webinary 4.28.26"
+              "title": "Outline of Financial Engineering and Risk Management - M4V2-3 Futures"
             }
           }
         ],
@@ -499,15 +574,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "965f9da823d2daa3",
+  "active": "f6686ef53efebff2",
   "lastOpenFiles": [
-    "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3.1V2-3 Interest Rates and Fixed Income Instruments.md",
-    "CFA Performance Governance Liquidity Private Markets Webinary 4.28.26.md",
+    "DOL/DOL Training and Supportive Opportunities 4.27.26.md",
+    "Untitled.md",
+    "CFA Webinar 4.29.26 - Conversations with Frank Fabozzi, CFA, Featuring Mark Anson, CFA.md",
     "Financial Engineering and Risk Management - M4V1 Swaps.md",
+    "DOL Interviewing.md",
+    "Financial Engineering and Risk Management - M4V2-3 Futures.md",
+    "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3.2V4-5 Floating Rate Bonds and Term Structure of Interest Rates.md",
+    "Pasted image 20260428140556.png",
+    "Pasted image 20260428140546.png",
+    "CFA Performance Governance Liquidity Private Markets Webinary 4.28.26.md",
+    "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3.1V2-3 Interest Rates and Fixed Income Instruments.md",
     "DOL/DOL Skills Based Resume Writing 4.23.26.md",
     "Kian.md",
-    "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3.2V4-5 Floating Rate Bonds and Term Structure of Interest Rates.md",
-    "DOL/DOL Training and Supportive Opportunities 4.27.26.md",
     "DOL/DOL Building and Using Your Linkedin Profile 4.21.26.md",
     "Financial Engineering and Risk Management - M3.2V6-7 Forward Contracts.md",
     "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities/Financial Engineering and Risk Management - M3V1 Introduction to No-Arbitrage.md",
@@ -527,17 +608,11 @@
     "Pasted image 20260421231318.png",
     "CFA Webinar Adapting Governance and Allocation to Balance Risk and Opportunity 3.26.26.md",
     "Pasted image 20260401190013.png",
-    "Oforeh 4.21.26.md",
-    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 1 M2V3 Review of Conditional Expectations and Variances(1).md",
-    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 1 M2V3 Review of Conditional Expectations and Variances.md",
-    "Financial Engineering and Risk Management/Module 2 - Pre-Requisite Materials/Financial Engineering and Risk Management - Intro to Probability Part 3 M2V9-10 Introduction to Brownian Motion.md",
     "Pasted image 20260421002658.png",
     "Financial Engineering and Risk Management/Module 3 - Introduction to Basic Fixed Income Securities",
     "Pasted image 20260419134054.png",
     "Pasted image 20260419010404.png",
     "Pasted image 20260419002036.png",
-    "Pasted image 20260418122018.png",
-    "Pasted image 20260418121641.png",
     "Financial Engineering and Risk Management/Untitled",
     "DOL",
     "Financial Engineering and Risk Management/Prerequisite Qualification 1",
