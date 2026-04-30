@@ -96,8 +96,61 @@ In the previous example, we had a perfect hedge. We assume the futures contract 
 - The futures contract might not be liquid
 - The payoff $P_T$ may be nonlinear in the underlying
 
+> ​"Futures price, here, refers to ​whatever futures contracts that we're buying in order to ​hedge the underlying asset ​whose stock price is stochastic or random. ​When there is a perfect hedge, ​then the basis is equal to zero."
+
 Basis = spot price of the UL - futures price
 - Perfect hedge: basis = 0 at maturity
 - Basis risk: basis $\ne$ 0 at time T
 - Basis risk arises because the futures contract is on a related but different asset, or expires at a diff time
 
+---
+### Heding problem with basis risk - Example
+Today is 9/1. Taco company needs 500k bushels of kidneybeans on 12/1. So the taco company faces risk of uncertain price. 
+Problem: no kidney bean futures available. Basis risk inevitable
+Hedge: go long y soybean futures each for 5000 bushels of soybeans per contract.
+
+Rely on correlation between soybean and kidney beans, and you think soybean futures can hedge.
+
+CF in 90 days
+- Futures position at maturity $(F_T - F_0)y$
+- Buy kidney beans you need at spot market $P_T$
+- Effective cash flow $C_T = y(F_T-F_0) + P_T$ outflow, expense.
+$P_T \ne yF_T$ for any y. Perfect hedge is impossible.
+
+---
+### Minium variance hedging
+Instead of targeting perfect hedge for effective cash flow delta = 0, try to minimize variance of the cash flow.
+
+Variance of the cash flow:
+$$\begin{aligned}
+var(C_T) &= var(P_T)+var(y(F_T-F_0)) \\
+&\ \ +2cov(y(F_T-F_0), P_T) \\
+&= var(P_T) + y^2 var(F_T) + 2y\ cov(F_T,P_T)
+\end{aligned}$$
+$F_0$ is a constant so that has no variance. the whole term var(y(FT - F0)), F0 goes away and y gets squared when puled out hence y^2 var(FT).
+When y comes out of covariance, just the y comes out hence cov(y(FT - F0 const), PT) can become y cov(FT, PT)
+
+Take the derivative with respect to y. Y is unknown, don't know how many contracts to buy.
+$$\begin{aligned}
+\frac{\delta var(C_T(y))}{\delta y} = 2y var(F_T) + 2cov(F_T, P_T)
+\end{aligned}$$
+Set it equal to 0. This is the amount of y that is going to give the minimum variance hedge. The optimal number of futures contracts is the solution.
+Optimal number of Futures contracts:
+$$\begin{aligned}
+y* = - \frac{cov(F_T, P_T)}{var(F_T)}
+\end{aligned}$$
+Tells how many contracts to buy to hedge the kidney beans.
+
+---
+## Futures
+
+> "In this module, we're going to introduce you to the mechanics of the margin account ​associated with futures contracts using an Excel spreadsheet. ​We're going to use both historical data and simulated data to ​show you all the various situations that can occur in the margin account. ​In this module, we're going to walk you through the mechanics of corn futures. ​I'm going to show you two different worksheets. ​In the first worksheet, I'm going to show you the mechanics using historical data. ​In the second worksheet, I'm going to show the same mechanics using simulated data. ​And, the reason I'm looking at two different worksheet, ​because it turns out for the historical data that I used, there's no margin call. ​And it's important for me to show you how the margin calls work"
+
+
+Consider a situation where invsetor is buying, for 1 contract 5000 bushels.
+![[Pasted image 20260430104713.png]]
+The contract value is 5000 and the initial margin is 1688, maintenance margin 1250.
+
+These numbers are going to be scaled by the number of contracts that the investor wants to hold.
+
+Suppose investor has bought the future with 
